@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Tree_of_life_church_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SVA-IA-dga">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="7gY-Gt-Jog">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="2001"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cgr-FT-H7I">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lCL-v8-O19">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1a" translatesAutoresizingMaskIntoConstraints="NO" id="cbp-hz-6fF">
+                                                                <rect key="frame" x="0.0" y="0.0" width="435" height="897"/>
+                                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                            </imageView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <viewLayoutGuide key="safeArea" id="bHv-II-FQn"/>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <viewLayoutGuide key="safeArea" id="DuA-ky-Jri"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z7h-U8-NBL">
+                                                <rect key="frame" x="0.0" y="667" width="375" height="667"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1a" translatesAutoresizingMaskIntoConstraints="NO" id="odf-j4-OOi">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lcD-kq-c8y">
+                                                <rect key="frame" x="0.0" y="1334" width="375" height="667"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="MYI-gm-bMX">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="HVO-ly-Hbj"/>
+                            </scrollView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F7p-oJ-Qbx">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="85"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t5D-Fn-wi6">
+                                <rect key="frame" x="0.0" y="728" width="375" height="85"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="YI5-gA-Vdy">
+                                        <rect key="frame" x="168" y="23" width="39" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                    </pageControl>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JVT-Bi-C0p">
+                                        <rect key="frame" x="155" y="-4" width="65" height="81"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                        <viewLayoutGuide key="safeArea" id="zBO-Th-tNY"/>
+                                        <state key="normal" image="live"/>
+                                        <connections>
+                                            <action selector="liveButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="opa-R0-Ej6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="hdR-X0-QX5"/>
+                            </view>
+                            <visualEffectView opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fHh-SJ-OgG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="bC2-rV-wFv">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPa-EC-Gtn">
+                                            <rect key="frame" x="155" y="374" width="65" height="65"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <viewLayoutGuide key="safeArea" id="OpF-ct-B6m"/>
+                                            <state key="normal" image="exit"/>
+                                            <connections>
+                                                <action selector="backButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q7C-ZJ-fZy"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KFg-Cl-6eM">
+                                            <rect key="frame" x="45" y="239" width="65" height="210"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <viewLayoutGuide key="safeArea" id="DDL-ab-iL3"/>
+                                            <state key="normal" image="chinease"/>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSZ-ZT-Oaz">
+                                            <rect key="frame" x="265" y="239" width="65" height="210"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <viewLayoutGuide key="safeArea" id="5vh-v4-nNh"/>
+                                            <state key="normal" image="indonesian"/>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jfw-Wd-BJx">
+                                            <rect key="frame" x="265" y="357" width="65" height="210"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <viewLayoutGuide key="safeArea" id="VVN-RB-E4R"/>
+                                            <state key="normal" image="korean"/>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1dD-HO-JtS">
+                                            <rect key="frame" x="45" y="357" width="65" height="210"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <viewLayoutGuide key="safeArea" id="KWy-MO-k5s"/>
+                                            <state key="normal" image="english"/>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6vO-Aa-RmO">
+                                            <rect key="frame" x="155" y="422" width="65" height="210"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <viewLayoutGuide key="safeArea" id="HFG-6b-Gme"/>
+                                            <state key="normal" image="spanish"/>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qys-aD-hro">
+                                            <rect key="frame" x="155" y="174" width="65" height="210"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <viewLayoutGuide key="safeArea" id="EU2-7K-6Vy"/>
+                                            <state key="normal" image="english"/>
+                                        </button>
+                                    </subviews>
+                                    <viewLayoutGuide key="safeArea" id="5c7-bx-9u5"/>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="VPa-EC-Gtn" id="tHK-QL-XFB"/>
+                        <outlet property="blur" destination="fHh-SJ-OgG" id="Joi-fe-uOu"/>
+                        <outlet property="cell1" destination="Cgr-FT-H7I" id="vOm-2l-gBJ"/>
+                        <outlet property="cell2" destination="Z7h-U8-NBL" id="1Ia-Lr-KIU"/>
+                        <outlet property="cell3" destination="lcD-kq-c8y" id="Uni-Id-r8b"/>
+                        <outlet property="chinese" destination="KFg-Cl-6eM" id="qBf-2l-Ako"/>
+                        <outlet property="english" destination="Qys-aD-hro" id="tHo-Lf-UYh"/>
+                        <outlet property="indonesian" destination="eSZ-ZT-Oaz" id="fCx-Nb-zQ1"/>
+                        <outlet property="korean" destination="Jfw-Wd-BJx" id="voa-46-ZhY"/>
+                        <outlet property="liveButton" destination="JVT-Bi-C0p" id="yx5-3S-NzZ"/>
+                        <outlet property="mainView" destination="8bC-Xf-vdC" id="MUl-JE-jkY"/>
+                        <outlet property="scroll" destination="SVA-IA-dga" id="0G2-DO-tRF"/>
+                        <outlet property="scrollPage" destination="YI5-gA-Vdy" id="VlZ-6z-7iG"/>
+                        <outlet property="spanish" destination="6vO-Aa-RmO" id="kxF-NL-f1p"/>
+                        <outlet property="special" destination="1dD-HO-JtS" id="sz5-Pt-urA"/>
+                        <outlet property="stack" destination="7gY-Gt-Jog" id="zfd-c5-8Jb"/>
+                        <outlet property="view1" destination="lCL-v8-O19" id="w92-DZ-d73"/>
+                        <outlet property="view2" destination="odf-j4-OOi" id="eDN-y1-nd6"/>
+                        <outlet property="view3" destination="MYI-gm-bMX" id="Ca9-0y-pqJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1a" width="563" height="732"/>
+        <image name="3" width="1440" height="1532"/>
+        <image name="chinease" width="65" height="65"/>
+        <image name="english" width="65" height="65"/>
+        <image name="exit" width="100" height="100"/>
+        <image name="indonesian" width="65" height="65"/>
+        <image name="korean" width="65" height="65"/>
+        <image name="live" width="65" height="65"/>
+        <image name="spanish" width="65" height="65"/>
+    </resources>
+</document>

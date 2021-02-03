@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A2CDE0E1FB4E75400D5098C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2CDE0D1FB4E75400D5098C /* AppDelegate.swift */; };
+		7A2CDE101FB4E75400D5098C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2CDE0F1FB4E75400D5098C /* ViewController.swift */; };
+		7A2CDE131FB4E75400D5098C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2CDE111FB4E75400D5098C /* Main.storyboard */; };
+		7A2CDE151FB4E75400D5098C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2CDE141FB4E75400D5098C /* Assets.xcassets */; };
+		7A2CDE181FB4E75400D5098C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2CDE161FB4E75400D5098C /* LaunchScreen.storyboard */; };
+		7A2CDE231FB4E75400D5098C /* Tree_of_life_church_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2CDE221FB4E75400D5098C /* Tree_of_life_church_appTests.swift */; };
+		7A2CDE2E1FB4E75400D5098C /* Tree_of_life_church_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2CDE2D1FB4E75400D5098C /* Tree_of_life_church_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A2CDE1F1FB4E75400D5098C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A2CDE021FB4E75400D5098C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A2CDE091FB4E75400D5098C;
+			remoteInfo = "Tree of life church app";
+		};
+		7A2CDE2A1FB4E75400D5098C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A2CDE021FB4E75400D5098C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A2CDE091FB4E75400D5098C;
+			remoteInfo = "Tree of life church app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A2CDE0A1FB4E75400D5098C /* Tree of life church app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tree of life church app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A2CDE0D1FB4E75400D5098C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A2CDE0F1FB4E75400D5098C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A2CDE121FB4E75400D5098C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A2CDE141FB4E75400D5098C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A2CDE171FB4E75400D5098C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A2CDE191FB4E75400D5098C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A2CDE1E1FB4E75400D5098C /* Tree of life church appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tree of life church appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A2CDE221FB4E75400D5098C /* Tree_of_life_church_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree_of_life_church_appTests.swift; sourceTree = "<group>"; };
+		7A2CDE241FB4E75400D5098C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A2CDE291FB4E75400D5098C /* Tree of life church appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tree of life church appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A2CDE2D1FB4E75400D5098C /* Tree_of_life_church_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree_of_life_church_appUITests.swift; sourceTree = "<group>"; };
+		7A2CDE2F1FB4E75400D5098C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A2CDE071FB4E75400D5098C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2CDE1B1FB4E75400D5098C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2CDE261FB4E75400D5098C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A2CDE011FB4E75300D5098C = {
+			isa = PBXGroup;
+			children = (
+				7A2CDE0C1FB4E75400D5098C /* Tree of life church app */,
+				7A2CDE211FB4E75400D5098C /* Tree of life church appTests */,
+				7A2CDE2C1FB4E75400D5098C /* Tree of life church appUITests */,
+				7A2CDE0B1FB4E75400D5098C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A2CDE0B1FB4E75400D5098C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A2CDE0A1FB4E75400D5098C /* Tree of life church app.app */,
+				7A2CDE1E1FB4E75400D5098C /* Tree of life church appTests.xctest */,
+				7A2CDE291FB4E75400D5098C /* Tree of life church appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A2CDE0C1FB4E75400D5098C /* Tree of life church app */ = {
+			isa = PBXGroup;
+			children = (
+				7A2CDE0D1FB4E75400D5098C /* AppDelegate.swift */,
+				7A2CDE0F1FB4E75400D5098C /* ViewController.swift */,
+				7A2CDE111FB4E75400D5098C /* Main.storyboard */,
+				7A2CDE141FB4E75400D5098C /* Assets.xcassets */,
+				7A2CDE161FB4E75400D5098C /* LaunchScreen.storyboard */,
+				7A2CDE191FB4E75400D5098C /* Info.plist */,
+			);
+			path = "Tree of life church app";
+			sourceTree = "<group>";
+		};
+		7A2CDE211FB4E75400D5098C /* Tree of life church appTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A2CDE221FB4E75400D5098C /* Tree_of_life_church_appTests.swift */,
+				7A2CDE241FB4E75400D5098C /* Info.plist */,
+			);
+			path = "Tree of life church appTests";
+			sourceTree = "<group>";
+		};
+		7A2CDE2C1FB4E75400D5098C /* Tree of life church appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A2CDE2D1FB4E75400D5098C /* Tree_of_life_church_appUITests.swift */,
+				7A2CDE2F1FB4E75400D5098C /* Info.plist */,
+			);
+			path = "Tree of life church appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A2CDE091FB4E75400D5098C /* Tree of life church app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A2CDE321FB4E75400D5098C /* Build configuration list for PBXNativeTarget "Tree of life church app" */;
+			buildPhases = (
+				7A2CDE061FB4E75400D5098C /* Sources */,
+				7A2CDE071FB4E75400D5098C /* Frameworks */,
+				7A2CDE081FB4E75400D5098C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tree of life church app";
+			productName = "Tree of life church app";
+			productReference = 7A2CDE0A1FB4E75400D5098C /* Tree of life church app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A2CDE1D1FB4E75400D5098C /* Tree of life church appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A2CDE351FB4E75400D5098C /* Build configuration list for PBXNativeTarget "Tree of life church appTests" */;
+			buildPhases = (
+				7A2CDE1A1FB4E75400D5098C /* Sources */,
+				7A2CDE1B1FB4E75400D5098C /* Frameworks */,
+				7A2CDE1C1FB4E75400D5098C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A2CDE201FB4E75400D5098C /* PBXTargetDependency */,
+			);
+			name = "Tree of life church appTests";
+			productName = "Tree of life church appTests";
+			productReference = 7A2CDE1E1FB4E75400D5098C /* Tree of life church appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A2CDE281FB4E75400D5098C /* Tree of life church appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A2CDE381FB4E75400D5098C /* Build configuration list for PBXNativeTarget "Tree of life church appUITests" */;
+			buildPhases = (
+				7A2CDE251FB4E75400D5098C /* Sources */,
+				7A2CDE261FB4E75400D5098C /* Frameworks */,
+				7A2CDE271FB4E75400D5098C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A2CDE2B1FB4E75400D5098C /* PBXTargetDependency */,
+			);
+			name = "Tree of life church appUITests";
+			productName = "Tree of life church appUITests";
+			productReference = 7A2CDE291FB4E75400D5098C /* Tree of life church appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A2CDE021FB4E75400D5098C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Dowon Lee";
+				TargetAttributes = {
+					7A2CDE091FB4E75400D5098C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					7A2CDE1D1FB4E75400D5098C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A2CDE091FB4E75400D5098C;
+					};
+					7A2CDE281FB4E75400D5098C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A2CDE091FB4E75400D5098C;
+					};
+				};
+			};
+			buildConfigurationList = 7A2CDE051FB4E75400D5098C /* Build configuration list for PBXProject "Tree of life church app" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A2CDE011FB4E75300D5098C;
+			productRefGroup = 7A2CDE0B1FB4E75400D5098C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A2CDE091FB4E75400D5098C /* Tree of life church app */,
+				7A2CDE1D1FB4E75400D5098C /* Tree of life church appTests */,
+				7A2CDE281FB4E75400D5098C /* Tree of life church appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A2CDE081FB4E75400D5098C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2CDE181FB4E75400D5098C /* LaunchScreen.storyboard in Resources */,
+				7A2CDE151FB4E75400D5098C /* Assets.xcassets in Resources */,
+				7A2CDE131FB4E75400D5098C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2CDE1C1FB4E75400D5098C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2CDE271FB4E75400D5098C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A2CDE061FB4E75400D5098C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2CDE101FB4E75400D5098C /* ViewController.swift in Sources */,
+				7A2CDE0E1FB4E75400D5098C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2CDE1A1FB4E75400D5098C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2CDE231FB4E75400D5098C /* Tree_of_life_church_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2CDE251FB4E75400D5098C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2CDE2E1FB4E75400D5098C /* Tree_of_life_church_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A2CDE201FB4E75400D5098C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A2CDE091FB4E75400D5098C /* Tree of life church app */;
+			targetProxy = 7A2CDE1F1FB4E75400D5098C /* PBXContainerItemProxy */;
+		};
+		7A2CDE2B1FB4E75400D5098C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A2CDE091FB4E75400D5098C /* Tree of life church app */;
+			targetProxy = 7A2CDE2A1FB4E75400D5098C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A2CDE111FB4E75400D5098C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A2CDE121FB4E75400D5098C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A2CDE161FB4E75400D5098C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A2CDE171FB4E75400D5098C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A2CDE301FB4E75400D5098C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A2CDE311FB4E75400D5098C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A2CDE331FB4E75400D5098C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MCT36F6J9;
+				INFOPLIST_FILE = "Tree of life church app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DowonLee.Tree-of-life-church";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A2CDE341FB4E75400D5098C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MCT36F6J9;
+				INFOPLIST_FILE = "Tree of life church app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DowonLee.Tree-of-life-church";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A2CDE361FB4E75400D5098C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MCT36F6J9;
+				INFOPLIST_FILE = "Tree of life church appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DowonLee.Tree-of-life-church-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tree of life church app.app/Tree of life church app";
+			};
+			name = Debug;
+		};
+		7A2CDE371FB4E75400D5098C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MCT36F6J9;
+				INFOPLIST_FILE = "Tree of life church appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DowonLee.Tree-of-life-church-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tree of life church app.app/Tree of life church app";
+			};
+			name = Release;
+		};
+		7A2CDE391FB4E75400D5098C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MCT36F6J9;
+				INFOPLIST_FILE = "Tree of life church appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DowonLee.Tree-of-life-church-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tree of life church app";
+			};
+			name = Debug;
+		};
+		7A2CDE3A1FB4E75400D5098C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MCT36F6J9;
+				INFOPLIST_FILE = "Tree of life church appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DowonLee.Tree-of-life-church-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tree of life church app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A2CDE051FB4E75400D5098C /* Build configuration list for PBXProject "Tree of life church app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A2CDE301FB4E75400D5098C /* Debug */,
+				7A2CDE311FB4E75400D5098C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A2CDE321FB4E75400D5098C /* Build configuration list for PBXNativeTarget "Tree of life church app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A2CDE331FB4E75400D5098C /* Debug */,
+				7A2CDE341FB4E75400D5098C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A2CDE351FB4E75400D5098C /* Build configuration list for PBXNativeTarget "Tree of life church appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A2CDE361FB4E75400D5098C /* Debug */,
+				7A2CDE371FB4E75400D5098C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A2CDE381FB4E75400D5098C /* Build configuration list for PBXNativeTarget "Tree of life church appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A2CDE391FB4E75400D5098C /* Debug */,
+				7A2CDE3A1FB4E75400D5098C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A2CDE021FB4E75400D5098C /* Project object */;
+}
